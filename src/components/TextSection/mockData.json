@@ -1,0 +1,32 @@
+﻿[
+  {
+    "title": "What is a square?",
+    "imageSrc": "/assets/image1.png",
+    "text": "Square ipsum dolor sit amet, the unrivaled champion of geometry! In the grand kingdom of shapes, squares sit proudly on the throne, their four perfect sides and glorious 90-degree angles radiating strength, stability, and an unmatched sense of purpose. Circles? Ha! They’re the jesters, rolling aimlessly through life, forever caught in their own endless loop. Who needs that kind of existential crisis in a shape?<br/>We love squares because they are the very foundation of our lives. Your home? Built of squares. Your screen? A glowing rectangle, essentially a fancy square doing all the hard work. Your favorite snack? A square of chocolate, of course. Circles, meanwhile, offer you donuts—sure, they’re sweet, but they’re full of empty promises (and empty middles). Why would anyone trust a shape that can’t even commit to being whole?<br/>Oh, the corners! The sharp, glorious corners! Squares declare with confidence: “I am here, and I will not be moved.” Their corners bring balance, clarity, and direction to a chaotic world. Circles? They shy away from the confrontation of corners, spinning endlessly in an attempt to avoid defining themselves. A square faces life head-on; a circle just runs in circles.",
+    "altText": "Description of the first image",
+    "buttonLinkUrl": "/",
+    "buttonDescription": "Read more",
+    "buttonAriaLabel": "Navigate to page 1",
+    "id": "what"
+  },
+  {
+    "title": "Why squares are the best",
+    "imageSrc": "/assets/image2.png",
+    "text": "Think about it: Squares build bridges, lay the bricks of our cities, and create grids that organize our world. Circles can’t even stack properly. Have you ever tried to store a bunch of circular plates? Nightmare. But squares? They nestle together with precision and grace, proving their worth time and time again. Without squares, society would literally fall apart.<br/>And let’s not forget the symbolism of squares. They stand for honesty, fairness, and equality. A square doesn’t hide anything—it shows you its true self, no matter the angle. A circle, on the other hand, is elusive, hiding its start and end as if it has something to prove. Squares are the friends who show up on moving day; circles are the ones who text, “Sorry, I can’t, I’m rolling through town.”<br/>Even in art and design, squares dominate. They bring order to the chaos of creativity. Modern art? Full of squares. Architecture? Squares everywhere. Even the pixels on your screen are tiny squares, working tirelessly to create your favorite cat videos and memes. Circles? They’re out there in abstract paintings, spinning in confusion, unsure of what they’re supposed to represent.",
+    "altText": "Description of the second image",
+    "buttonLinkUrl": "/",
+    "buttonDescription": "Read more",
+    "buttonAriaLabel": "Navigate to page 2",
+    "id": "why"
+  },
+  {
+    "title": "How squares shape our world",
+    "imageSrc": "/assets/image3.png",
+    "text": "And let’s talk about the science of squares. Squares are efficient. They can tessellate seamlessly, covering a plane without leaving gaps. Circles? They leave awkward spaces, like a friend who doesn’t quite fit into the group photo. Squares are the shape of teamwork and functionality. Circles are the shape of indecision.<br/>But what about wheels, you ask? Fine, circles have wheels. Congratulations on making transportation easier. But you know what squares have? The grid system that keeps those wheels moving in the right direction. Without squares, your circles would just roll off into oblivion.<br/>So here’s to squares—the unsung heroes of geometry, the reliable friends of structure, and the eternal enemies of circles. May their corners always be sharp, their sides always equal, and their presence always remind us that the best things in life are shaped with strength, stability, and a little bit of edge. Long live squares!",
+    "altText": "Description of the third image",
+    "buttonLinkUrl": "/",
+    "buttonDescription": "Read more",
+    "buttonAriaLabel": "Navigate to page 3",
+    "id": "how"
+  }
+]

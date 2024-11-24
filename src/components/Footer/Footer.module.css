@@ -1,0 +1,21 @@
+﻿.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 2rem 4rem;
+  font-size: 1.2rem;
+}
+
+.nav {
+  a {
+    cursor: pointer;
+    text-decoration: none;
+    transition: font-size 350ms ease-in-out;
+
+    &:hover {
+      font-size: 1.6rem;
+    }
+  }
+}

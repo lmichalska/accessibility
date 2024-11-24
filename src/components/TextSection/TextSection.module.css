@@ -1,0 +1,70 @@
+﻿.section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 10%;
+  gap: 4rem;
+  max-width: 180rem;
+
+  &.image_first {
+    flex-direction: row-reverse;
+  }
+}
+
+.image {
+  width: 50%;
+  height: auto;
+}
+
+.text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  span {
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+
+  a {
+    width: fit-content;
+    box-sizing: border-box;
+    padding: 1rem 2rem;
+    font-size: 1.8rem;
+    text-decoration: none;
+    position: relative;
+
+    &:after {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 100%;
+      background-color: var(--color-pink);
+      z-index: -1;
+      top: 0;
+      left: 0;
+      transition: width 300ms ease-in-out;
+    }
+
+    &:focus-visible {
+      outline: none;
+      box-shadow: 0 0 0 3px var(--color-blue);
+    }
+
+    &:hover:after,
+    &:focus:after {
+      width: 100%;
+    }
+  }
+}
+
+.title {
+  font-size: 3.6rem;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+}
