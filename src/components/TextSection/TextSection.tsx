@@ -27,9 +27,12 @@ const TextSection: FC<TextSectionProps> = ({
 }) => {
   const flexDirectionClass = imageFirst ? styles.image_first : undefined;
 
+  const BASE_URL = import.meta.env.BASE_URL;
+  const imgSrc = `${BASE_URL.replace(/\/+$/, '')}/${imageSrc.replace(/^\/+/, '')}`;
+
   return (
     <div className={combineClasses(styles.section, flexDirectionClass)} id={id}>
-      <img className={styles.image} src={imageSrc} alt={altText ?? imageSrc} />
+      <img className={styles.image} src={imgSrc} alt={altText ?? imageSrc} />
       <div className={styles.text}>
         <h2 className={styles.title}>{title}</h2>
         <span dangerouslySetInnerHTML={{ __html: text }}></span>
