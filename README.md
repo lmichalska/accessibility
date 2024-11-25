@@ -120,6 +120,7 @@ Contributions are welcome! If you find an issue or want to enhance the workshop,
 
 ## **License**
 
+Author: Olga Mozejko [OMoz](https://github.com/OlgaMozejko)
 This project is licensed under the [MIT License](LICENSE).
 
 ---
